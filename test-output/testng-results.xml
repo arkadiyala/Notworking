@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Corteva Regression Test Suite" duration-ms="25700" started-at="2018-08-01T21:46:09Z" finished-at="2018-08-01T21:46:34Z">
+    <groups>
+    </groups>
+    <test name="Navigation Test" duration-ms="25700" started-at="2018-08-01T21:46:09Z" finished-at="2018-08-01T21:46:34Z">
+      <class name="tests.NavigationTests">
+        <test-method status="PASS" signature="LoadConfig()[pri:0, instance:tests.NavigationTests@3574e198]" name="LoadConfig" is-config="true" duration-ms="30" started-at="2018-08-01T21:46:09Z" description="Config Level Setup!" finished-at="2018-08-01T21:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadConfig -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.NavigationTests@3574e198]" name="setup" is-config="true" duration-ms="4744" started-at="2018-08-01T21:46:09Z" description="Class Level Device Setup!" finished-at="2018-08-01T21:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_HomePageMenuNavigationMethod(java.lang.reflect.Method)[pri:0, instance:tests.NavigationTests@3574e198]" name="verify_HomePageMenuNavigationMethod" duration-ms="17771" started-at="2018-08-01T21:46:13Z" description="Verify home page navigation through links" finished-at="2018-08-01T21:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.NavigationTests.verify_HomePageMenuNavigationMethod(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_HomePageMenuNavigationMethod -->
+        <test-method status="PASS" signature="verify_OurPurposeandValuesMethod()[pri:1, instance:tests.NavigationTests@3574e198]" name="verify_OurPurposeandValuesMethod" duration-ms="2360" started-at="2018-08-01T21:46:31Z" description="Extra dummy test" finished-at="2018-08-01T21:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_OurPurposeandValuesMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.NavigationTests@3574e198]" name="teardown" is-config="true" duration-ms="654" started-at="2018-08-01T21:46:34Z" description="Class Level Teardown!" finished-at="2018-08-01T21:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.NavigationTests -->
+    </test> <!-- Navigation Test -->
+  </suite> <!-- Corteva Regression Test Suite -->
+</testng-results>
